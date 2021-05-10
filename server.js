@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-res.send('Hello DevOps Course von Pascal und Radu');
+res.send('Hello DevOps Course von Pascal und Radu FROM GIT');
 });
 app.listen(PORT, HOST);
 console.log(`Running on 
